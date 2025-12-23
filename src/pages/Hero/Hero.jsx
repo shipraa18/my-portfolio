@@ -42,42 +42,48 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "AI & ML Engineer | Deep Learning & Computer Vision",
-    "Researcher in NLP, Generative AI, and Multi-Agent Systems",
-    "Creator of 'Signify' – Sign Language to Text/Speech (Patent)",
-    "Built Real-Time Computer Vision Systems using YOLO & OpenCV",
-    "Driven by Curiosity, Innovation, and Impactful AI Solutions",
+    "AI Full-Stack Engineer | MERN, System Design & Problem Solving",
+    "Strong in DSA & Regular Competitive Programming Contest Participant",
+    "Building Scalable Web Applications with Integrated AI",
+    "Developed RAG-Powered Chatbots using LLMs & Vector Databases",
+    "Focused on Practical, Impact-Driven AI Solutions"
   ];
-
-
+  
   const [code] = useState(`
 const profile = {
-  name: 'Khushi',
-  title: 'AI & ML Engineer | Deep Learning | Computer Vision | NLP',
-  skills: [
-    'Python', 'TensorFlow', 'PyTorch', 'OpenCV', 'Keras',
-    'LangChain', 'LLMs', 'Data Science', 'Machine Learning',
-    'Deep Learning', 'NLP', 'Computer Vision', 
-    'Power BI', 'SQL', 'Streamlit'
-  ],
+  name: 'Shipra',
+  title: 'AI Full Stack Engineer | MERN Stack | Computer Vision | AWS Services | System Design | Problem Solving',
+ skills: [
+  'C++', 'Python', 'JavaScript', 'Data Structures & Algorithms',
+  'MERN Stack', 'React', 'Node.js', 'Express.js',
+  'REST APIs', 'System Design',
+  'MongoDB', 'SQL',
+  'LLMs', 'Computer Vision', 'OpenCV', 'RAG Systems', 'LangChain',
+  'Prompt Engineering', 'Vector Databases',
+  'Git', 'AWS'
+]
+
   education: 'B.Tech in Computer Science (AI & ML Specialization), KIET Group of Institutions (2022–2026)',
   experience: [
-    'AIML Intern, soFueled – Built real-time computer vision system using YOLOv8 & OpenCV for granular object analysis.',
-    'AIML Intern, Epsilon Creative Agency – Created real-time image-to-avatar pipeline using Stable Diffusion & Deep Learning.',
-    'AIML Intern, Zipbolt Innovation Labs – Detected EV sensor anomalies using RPCA & Isolation Forest, integrated Power BI dashboards.'
-  ],
+     'AI full stack intern, eCampus - Developed an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to assist students with queries about India’s online degree programs. 
+      Implemented vector embeddings, vector databases, LangChain, and LLM integration to enable accurate, context-aware information retrieval.',
+     'Devops intern, AWS Academy (KIET Group of Institutions) - Deployed and managed AWS services including EC2, S3, RDS, and CloudFront to create a scalable and secure web application.'
+     ],
   projects: [
-    'Signify – Indian Sign Language to Text/Speech (Patent)',
-    'Early Forest Fire Prediction (Patent)',
-    'Tabular Question Answering using LLMs (TAPAS & Gemini)',
-    'Intelligent Multi-Agent Medical Appointment Scheduler'
-  ],
-  achievements: [
-    'Top 5 Finalist – Smart India Hackathon 2024',
-    'Winner – IdeaSurge 2024 (Sharda University)',
-    'Runner-up – InnoTech 2024 (KIET)',
-    'Mentored 20+ students as Machine Learning Mentor at School of AI, ML & DS'
-  ],
+  'E-Wise — Electronic Waste Management System (Paper Published)',
+  'ProxiSafe — Social Distancing Detector and Alert System',
+  'RAG-Powered Chatbot for Online University Query Resolution',
+  'E-Attendance System — OpenCV-based face recognition with automated attendance tracking',
+  'Gupshup — Real-Time Chat Application using MERN & Socket.IO'
+],
+
+ achievements: [
+  'Departmental Winner – InnoTech Technical Competition (150+ participants)',
+  'Secured 2nd Position in an Inter-Institutional Workshop for Major Project Development',
+  'Runner-Up – Phase 1, IEEE Hackathon (IEEE Sustainable for Humanity 2024)',
+  'Qualified GATE 2025'
+],
+
   hardWorker: true,
   quickLearner: true,
   problemSolver: true,
@@ -212,7 +218,7 @@ const profile = {
                     I&apos;m
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Khushi
+                      Shipra
                     </span>
                   </span>
                 </h1>
@@ -233,7 +239,7 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  💻 AI Innovator | Turning models into impact – vision, speech & insight 🔍 | Forever curious, always creating ⚡
+                💻 AI Full-Stack Engineer | MERN, System Design & DSA 🔍 | Building reliable, real-world AI solutions ⚡
 
                 </p>
               </div>
@@ -242,7 +248,7 @@ const profile = {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
                 {/* View Projects Button */}
                 <a
-                  href="https://www.linkedin.com/in/khushi-47507a250/"
+                  href="https://www.linkedin.com/in/shipra-maurya-216556260/"
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
@@ -255,7 +261,7 @@ const profile = {
 
                 {/* Contact Button */}
                 <a
-                  href="https://drive.google.com/file/d/1oWZEb8LqE2jdbBYZIHNfqhKPdw0da4n5/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1tk6XEVkVvVenrHR8sKbY_BuoEa7emHIS/view?usp=sharing"
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">

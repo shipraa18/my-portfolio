@@ -5,100 +5,47 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Indian Sign Language to Text/Speech",
+    title: "E-Wise — Electronic Waste Management System",
     description:
-      "An AI-powered real-time ISL gesture translator converting 20 Indian Sign Language gestures into text & speech using TensorFlow, LSTM, OpenCV and CNN architectures.",
-    techStack: ["TensorFlow", "LSTM", "OpenCV", "CNN", "Keras", "Python", "NLP"],
-    color: "#5196fd",
-    githubLink: "https://github.com/starkhushi/Signify",
-  },
-  {
-    title: "Tabular Question Answering (TAPAS + Gemini)",
-    description:
-      "LLM-powered QA system answering natural-language queries on CSV/Relational data using TAPAS + Gemini Flash achieving 85%+ accuracy and 2x faster insights.",
-    techStack: ["TAPAS", "Gemini", "Python", "Pandas", "NumPy", "Streamlit"],
+      "A web-based platform for efficient electronic waste management, enabling users to submit e-waste requests, track pickups, and promote sustainable recycling practices.",
+    techStack: ["MERN Stack", "Machine Learning", "Web Development"],
     color: "#8f89ff",
-    githubLink: "https://github.com/starkhushi/Data-Question-Answering",
+    githubLink: "https://github.com/shipraa18/E-waste-detection", // add if available
   },
   {
-    title: "Intelligent Multi-Agent Medical Appointment Scheduler",
+    title: "RAG-Powered Chatbot for Online Universities",
     description:
-      "Multi-agent scheduler using Langchain + LangGraph with Google Calendar API, Twilio & SendGrid for automated booking, conflict detection & notifications.",
-    techStack: [
-      "LangChain",
-      "LangGraph",
-      "Python",
-      "Google Calendar API",
-      "Twilio",
-      "SendGrid",
-      "SQLAlchemy",
-    ],
-    color: "#c651fd",
-    githubLink: "https://github.com/starkhushi/Raga_AI_Task",
-  },
-  {
-    title: "ASR Model Fine-Tuning (Whisper Small - Hindi)",
-    description:
-      "Fine-tuned Whisper Small for Hindi ASR using 10+ hours dataset. Improved WER via optimized preprocessing, metadata extraction & training pipeline.",
-    techStack: [
-      "Whisper",
-      "HuggingFace",
-      "Transformers",
-      "Librosa",
-      "Python",
-      "Datasets",
-    ],
-    color: "#ed649e",
-    githubLink: "https://github.com/starkhushi/Josh_Talks_task",
-  },
-  {
-    title: "Malware Classification using CNN Ensembles",
-    description:
-      "Research project improving malware image classification with CNN architectures (ResNet50, DenseNet169, EfficientNetB4, VGG16) using custom loss, BN, L2 & callbacks.",
-    techStack: [
-      "CNN",
-      "Keras",
-      "ResNet",
-      "DenseNet",
-      "EfficientNet",
-      "VGG16",
-      "Python",
-    ],
-    color: "#e93939",
-    githubLink: "https://github.com/starkhushi/Malware-Classification",
-  },
-  {
-    title: "Early Forest Fire Prediction (IoT + ML)",
-    description:
-      "IoT + ML system predicting forest fires using sensors, ML models & real-time communication pipelines to overcome limitations of satellite and LIDAR systems.",
-    techStack: ["IoT", "ML Models", "Python", "Sensors", "WSN", "Real-Time Systems"],
-    color: "#39a3e9",
-    githubLink:
-      "https://github.com/starkhushi/Early-Forest-fire-Prediction-and-Detection",
-  },
-  {
-    title: "Text Summarizer (NLP Pipeline)",
-    description:
-      "Python NLP summarizer for condensing long documents into clean summaries using extractive & abstractive NLP techniques.",
-    techStack: ["Python", "NLP", "NLTK", "Transformers", "Summarization"],
-    color: "#a339e9",
-    githubLink: "https://github.com/starkhushi/Text-Summarizer",
-  },
-  {
-    title: "Hallucination Detection in RAG Dataset",
-    description:
-      "Detects hallucination using semantic similarity, MiniLM embeddings, context adherence & RAG dataset processing.",
-    techStack: [
-      "SentenceTransformers",
-      "Cosine Similarity",
-      "Python",
-      "Embeddings",
-      "RAG",
-    ],
+      "An AI-powered chatbot built using Retrieval-Augmented Generation (RAG) to resolve student queries related to online degree programs using contextual course data.",
+    techStack: ["Python", "RAG", "LangChain", "LLMs", "FAISS"],
     color: "#39e9d2",
-    githubLink: "https://github.com/starkhushi/QA_task",
+    githubLink: "https://github.com/shipraa18/ecampus.ai", // add if available
+  },
+  {
+    title: "E-Attendance System",
+    description:
+      "An automated attendance system using OpenCV-based face recognition to register users, mark attendance, and update records directly in Google Sheets.",
+    techStack: ["Python", "OpenCV", "Automation"],
+    color: "#a339e9",
+    githubLink: "https://github.com/shipraa18/face-recognition-attendance-system", 
+  },
+  {
+    title: "Gupshup — Real-Time Chat Application",
+    description:
+      "A real-time chat application built using the MERN stack and Socket.IO, enabling seamless messaging and user interaction.",
+    techStack: ["MERN Stack", "Socket.IO", "JavaScript"],
+    color: "#c651fd",
+    githubLink: "https://github.com/shipraa18/fullstack-chat-app", // add if available
+  },
+  {
+    title: "ProxiSafe — Social Distancing Detector & Alert System",
+    description:
+      "A real-time computer vision system that detects social distancing violations and generates alerts to enhance public safety in crowded environments.",
+    techStack: ["Python", "OpenCV", "Computer Vision"],
+    color: "#e93939",
+    githubLink: "https://github.com/shipraa18/proxiSafe", // add if available
   },
 ];
+
 
 export default function Projects() {
   const container = useRef(null);

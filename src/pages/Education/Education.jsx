@@ -5,54 +5,38 @@ import { Calendar } from "lucide-react";
 
 const achievements = [
   {
-    title: "Patent Holder – ISL Bidirectional Translation System",
-    image: "/achievements/patent.jpg",  // ✅ put patent image here
-    issuer: "Indian Patent Office",
-    date: "Dec 2024",
+    title: "Runner-Up – Phase 1, IEEE Hackathon (IEEE Sustainable for Humanity 2024)",
+    image: "/achievements/ieee.jpg",
+    issuer: "IEEE",
+    date: "2024",
   },
   {
-    title: "Patent Holder – Early Forest Fire Detection System",
-    image: "/achievements/patent2.jpg",  // ✅ same or separate image
-    issuer: "Indian Patent Office",
-    date: "Dec 2024",
-  },
-  {
-    title: "Best AI Learner Award (2023–24)",
-    image: "/achievements/best_ai_learner_new.jpg",
+    title: "Departmental Winner – InnoTech Technical Competition (150+ Participants)",
+    image: "/achievements/innotech.jpg",
     issuer: "KIET Group of Institutions",
-    date: "Sep 2025",
+    date: "2024",
   },
   {
-    title: "Smart India Hackathon Finalist 2024",
-    image: "/achievements/sih_new.jpg",
-    issuer: "Government of India",
-    date: "Nov 2024",
+    title: "Secured 2nd Position – Inter-Institutional Major Project Workshop",
+    image: "/achievements/aimlds.jpg",
+    issuer: "Inter-Institutional Event",
+    date: "2024",
   },
   {
-    title: "INNOTECH 2024 – Winner (Dept) & Runner-Up (Institute)",
-    image: "/achievements/innotech_new.jpg",
-    issuer: "KIET Group of Institutions",
-    date: "Oct 2024",
+    title: "AWS Certified Cloud Practitioner",
+    image: "/achievements/aws.png",
+    issuer: "Amazon Web Services (AWS)",
+    date: "2025",
   },
   {
-    title: "IDEASURGE 2024 – Consolation Winner",
-    image: "/achievements/ideasurge_new.jpg",
-    issuer: "Sharda University",
-    date: "Sep 2024",
+    title: "Qualified GATE 2025",
+    image: "/achievements/gate.png",
+    issuer: "Indian Institute of Technology (IIT)",
+    date: "2025",
   },
-  {
-    title: "Top 5 Performer – MIET Hackathon",
-    image: "/achievements/mlsa.jpg",
-    issuer: "MLSA MIET",
-    date: "Apr 2024",
-  },
-  {
-    title: "Quiz Winner-MLSA",
-    image: "/achievements/quiz.jpg",
-    issuer: "MLSA MIET",
-    date: "Apr 2024",
-  },
+
 ];
+
 
 
 const AchievementsSection = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Cpu } from "lucide-react";
+import { Code2, Cpu, Cloud } from "lucide-react";
 
 const ExperienceCard = ({
   title,
@@ -49,37 +49,31 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Code2,
-      title: "AI Trainee",
-      company: "Dheyantra Pvt. Ltd.",
-      period: "Sept 2025 – Present",
+      title: "Full Stack Developer Intern",
+      company: "Ecampus",
+      period: "Sep 2025 – Present",
       description:
-        "Working on production-grade AI systems involving NLP, computer vision, and multimodal pipelines. Contributing to data engineering, model training, and enterprise AI automations while supporting scalable system design.",
-    },
-    {
-      icon: Cpu,
-      title: "AIML Intern",
-      company: "soFueled",
-      period: "Jul 2025 – Aug 2025",
-      description:
-        "Architected a real-time computer vision system for automated granular object analysis using YOLOv8 and OpenCV. Developed a hybrid segmentation and counting pipeline using watershed and convexity defect analysis to resolve occlusion and improve counting accuracy.",
+        "Developing an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to assist students with queries related to India’s online degree programs. Implemented vector embeddings, FAISS-based vector databases, LangChain, and LLM integration to deliver accurate, context-aware responses from course data, while contributing to backend integration and system scalability.",
     },
     {
       icon: Code2,
-      title: "AIML Intern",
-      company: "Epsilon Creative Agency",
-      period: "Mar 2025 – Jul 2025",
+      title: "Web Developer",
+      company: "Code Hurdle",
+      period: "Jul 2025 – Sep 2025",
       description:
-        "Built a real-time image-to-avatar swapping system using deep learning, face detection, segmentation, and stable diffusion. Optimized pipelines for low-latency performance and integrated audio/video processing APIs for seamless candidate evaluation.",
+        "Developed and maintained the company website to provide an effective platform for improving coding skills, problem-solving ratings, and learning resources. Worked on frontend development, backend integration, and performance improvements to enhance user experience and platform reliability.",
     },
     {
-      icon: Cpu,
-      title: "AIML Intern",
-      company: "Zipbolt Innovation Labs",
-      period: "Jan 2025 – Mar 2025",
+      icon: Cloud,
+      title: "DevOps Intern",
+      company: "AWS Academy, KIET Group of Institutions",
+      period: "Jun 2025 – Jul 2025",
       description:
-        "Detected anomalies in EV sensor data using RPCA and Isolation Forest. Integrated Power BI dashboards for real-time analytics on a Django backend. Utilized cloud and streaming pipelines for scalable high-speed anomaly detection.",
+        "Gained hands-on experience with Docker, Kubernetes, and Terraform for CI/CD workflows. Deployed applications on AWS cloud infrastructure and learned cloud-native deployment practices, focusing on automation, reliability, and basic system scalability.",
     },
   ];
+  
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-b relative overflow-hidden pt-32 pb-20">

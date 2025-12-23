@@ -110,7 +110,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">khushi886987@gmail.com</p>
+                    <p className="text-gray-400">shipramaurya1804@gmail.com</p>
                   </div>
                 </div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold">Location</h3>
                     <p className="text-gray-400">
-                      Aadarsh Nagar Colony, Hapur, Uttar Pradesh
+                      Nizamuddin Pura, Mau, Uttar Pradesh
                     </p>
                   </div>
                 </div>
